@@ -1,0 +1,9 @@
+body{
+
+}
+.bg_img
+{
+  background-image: url("../img/bg_big.png");
+  height: 100%;
+  width: 100%;
+}

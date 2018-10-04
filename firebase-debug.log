@@ -1,0 +1,41 @@
+[debug] [2018-04-16T15:21:55.290Z] ----------------------------------------------------------------------
+[debug] [2018-04-16T15:21:55.293Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-16T15:21:55.293Z] CLI Version:   3.18.4
+[debug] [2018-04-16T15:21:55.293Z] Platform:      darwin
+[debug] [2018-04-16T15:21:55.293Z] Node Version:  v9.8.0
+[debug] [2018-04-16T15:21:55.294Z] Time:          Mon Apr 16 2018 20:51:55 GMT+0530 (IST)
+[debug] [2018-04-16T15:21:55.294Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-16T15:21:55.346Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-16T15:21:55.346Z] > authorizing via signed-in user
+[debug] [2018-04-16T15:21:55.350Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-16T15:21:55.351Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/1uwcC-ozVS94iWcM0-RC2-Diw0vaXv2-t0sI-2-rvzQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Apr 16 2018 20:51:55 GMT+0530 (IST)
+[debug] [2018-04-16T15:21:55.847Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-16T15:21:55.907Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/perfect-warranty  
+  
+ Mon Apr 16 2018 20:51:55 GMT+0530 (IST)
+[debug] [2018-04-16T15:21:57.505Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-16T15:21:57.506Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/perfect-warranty/tokens  
+  
+ Mon Apr 16 2018 20:51:57 GMT+0530 (IST)
+[debug] [2018-04-16T15:21:58.719Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-16T15:21:58.720Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/perfect-warranty  
+  
+ Mon Apr 16 2018 20:51:58 GMT+0530 (IST)
+[debug] [2018-04-16T15:22:00.547Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/anirudh/Desktop/perfect-warranty_build1'...
+[info] 
+[debug] [2018-04-16T15:22:00.549Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/971456117336/clients/_:getWebAppConfig  
+  
+ Mon Apr 16 2018 20:52:00 GMT+0530 (IST)
+[debug] [2018-04-16T15:22:01.871Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
